@@ -1,0 +1,21 @@
+{
+  "name": "kafka-do-test-api",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf build",
+    "start": "tsc && node ./build/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   "kafkajs": "2.2.4",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^5.1.6"
+  }
+}
